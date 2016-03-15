@@ -1,6 +1,7 @@
 # HanekeObjc
 
-[![CI Status](http://img.shields.io/travis/Hai Feng Kao/HanekeObjc.svg?style=flat)](https://travis-ci.org/Hai Feng Kao/HanekeObjc)
+[![CI Status](http://img.shields.io/travis/haifengkao/HanekeObjc.svg?style=flat)](https://travis-ci.org/haifengkao/HanekeObjc)
+[![Coverage Status](https://coveralls.io/repos/haifengkao/HanekeObjc/badge.svg?branch=master&service=github)](https://coveralls.io/github/haifengkao/HanekeObjc?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HanekeObjc.svg?style=flat)](http://cocoapods.org/pods/HanekeObjc)
 [![License](https://img.shields.io/cocoapods/l/HanekeObjc.svg?style=flat)](http://cocoapods.org/pods/HanekeObjc)
 [![Platform](https://img.shields.io/cocoapods/p/HanekeObjc.svg?style=flat)](http://cocoapods.org/pods/HanekeObjc)
