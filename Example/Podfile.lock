@@ -1,5 +1,7 @@
 PODS:
-  - HanekeObjc (0.1.0)
+  - HanekeObjc (0.1.0):
+    - HanekeSwift
+  - HanekeSwift (0.10.1)
   - Nimble (3.0.0)
   - Quick (0.8.0)
 
@@ -13,7 +15,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HanekeObjc: c0299329565b7e3bae5bb21cb51af5e3f9574636
+  HanekeObjc: 22798978d7318b30e150a2c71dc6859f89ed8162
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
 

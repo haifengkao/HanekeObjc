@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HanekeObjc_Tests/HanekeObjc.framework"
+  install_framework "Pods-HanekeObjc_Tests/Haneke.framework"
   install_framework "Pods-HanekeObjc_Tests/Nimble.framework"
   install_framework "Pods-HanekeObjc_Tests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HanekeObjc_Tests/HanekeObjc.framework"
+  install_framework "Pods-HanekeObjc_Tests/Haneke.framework"
   install_framework "Pods-HanekeObjc_Tests/Nimble.framework"
   install_framework "Pods-HanekeObjc_Tests/Quick.framework"
 fi

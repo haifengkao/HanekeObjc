@@ -1,15 +1,15 @@
 {
   "name": "HanekeObjc",
   "version": "0.1.0",
-  "summary": "A short description of HanekeObjc.",
+  "summary": "Do you want to use HanekeSwift in your objective-c codes?",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/HanekeObjc",
+  "homepage": "https://github.com/haifengkao/HanekeObjc",
   "license": "MIT",
   "authors": {
     "Hai Feng Kao": "haifeng@cocoaspice.in"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/HanekeObjc.git",
+    "git": "https://github.com/haifengkao/HanekeObjc.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "HanekeObjc": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "HanekeSwift": [
+
     ]
   }
 }

@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HanekeObjc_Example/HanekeObjc.framework"
+  install_framework "Pods-HanekeObjc_Example/Haneke.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HanekeObjc_Example/HanekeObjc.framework"
+  install_framework "Pods-HanekeObjc_Example/Haneke.framework"
 fi
