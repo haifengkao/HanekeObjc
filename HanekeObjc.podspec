@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HanekeObjc"
-  s.version          = "0.10.0"
+  s.version          = "0.9.0"
   s.summary          = "Do you want to use HanekeSwift in your objective-c codes?"
 
 # This description is used to generate tags and improve search results.
@@ -30,12 +30,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{m,h,swift}'
   #s.resource_bundles = {
     #'HanekeObjc' => ['Pod/Assets/*.png']
   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'HanekeSwift'
+   s.dependency 'AltHanekeSwift'
+   s.dependency 'Alamofire'
 end
