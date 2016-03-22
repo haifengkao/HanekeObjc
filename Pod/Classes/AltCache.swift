@@ -3,12 +3,18 @@ import Alamofire
 
 public class AltCache<T: DataConvertible where T.Result == T, T : DataRepresentable> : HanekeCache<T, AltDiskCache, NSCache> {
  
+    public var networkManager: NetworkManager = NetworkManager.sharedInstance()
+
     public override init(name: String) {
         super.init(name: name)
     }
 
     public override func fetch(URL URL : NSURL, formatName: String, failure fail: Fetch<T>.Failer? = nil, success succeed: Fetch<T>.Succeeder? = nil) -> Fetch<T> {
-        let manager = NetworkManager.sharedInstance.manager
+
+        assert(networkManager, "you need to set network manager before using fetch")
+
+        // warning! networkManager might be changed at any moment, you need to store it
+        let manager = self.networkManager.manager
         let fetcher = AltNetworkFetcher<T>(URL: URL, manager: manager)
         return self.fetch(fetcher: fetcher, formatName: formatName, failure: fail, success: succeed)
     }
@@ -26,22 +32,19 @@ public class AltCache<T: DataConvertible where T.Result == T, T : DataRepresenta
 
 @objc public class NetworkManager : NSObject
 {
-    
-    var internalManager: Manager = NetworkManager.createManager(NSURLSessionConfiguration.defaultSessionConfiguration())
-
-    public var sessionConfiguration: NSURLSessionConfiguration  = NSURLSessionConfiguration.defaultSessionConfiguration() {
-        didSet
-        {
-            self.internalManager = NetworkManager.createManager(self.sessionConfiguration)
-        }
-    }
+    let internalManager: Manager 
 
     public static let sharedInstance: NetworkManager = {
         return NetworkManager()
     }()
+
+    public convenience override init() {
+        self.init(NSURLSessionConfiguration.defaultSessionConfiguration())
+    }
     
-    public override init() {
+    public init(configuration configuration: NSURLSessionConfiguration) {
         super.init()
+        self.internalManager = NetworkManager.createManager(configuration)
     }
 
     public var manager: Manager {
