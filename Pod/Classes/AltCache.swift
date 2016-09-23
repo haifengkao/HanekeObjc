@@ -3,15 +3,13 @@ import Alamofire
 
 public class AltCache<T: DataConvertible where T.Result == T, T : DataRepresentable> : HanekeCache<T, AltDiskCache, NSCache> {
  
-    public var networkManager: NetworkManager = NetworkManager.sharedInstance()
+    public var networkManager: NetworkManager = NetworkManager.sharedInstance
 
     public override init(name: String) {
         super.init(name: name)
     }
 
     public override func fetch(URL URL : NSURL, formatName: String, failure fail: Fetch<T>.Failer? = nil, success succeed: Fetch<T>.Succeeder? = nil) -> Fetch<T> {
-
-        assert(networkManager, "you need to set network manager before using fetch")
 
         // warning! networkManager might be changed at any moment, you need to store it
         let manager = self.networkManager.manager
@@ -39,12 +37,12 @@ public class AltCache<T: DataConvertible where T.Result == T, T : DataRepresenta
     }()
 
     public convenience override init() {
-        self.init(NSURLSessionConfiguration.defaultSessionConfiguration())
+        self.init(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
     }
     
-    public init(configuration configuration: NSURLSessionConfiguration) {
-        super.init()
+    public init(configuration: NSURLSessionConfiguration) {
         self.internalManager = NetworkManager.createManager(configuration)
+        super.init()
     }
 
     public var manager: Manager {
