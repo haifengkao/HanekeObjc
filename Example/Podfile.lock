@@ -1,23 +1,28 @@
 PODS:
-  - HanekeObjc (0.1.0):
-    - HanekeSwift
-  - HanekeSwift (0.10.1)
-  - Nimble (3.0.0)
-  - Quick (0.8.0)
+  - Alamofire (3.5.0)
+  - AltHanekeSwift (0.10.10)
+  - HanekeObjc (0.11.0):
+    - Alamofire
+    - AltHanekeSwift
+  - Nimble (4.0.1)
+  - Quick (0.9.3)
 
 DEPENDENCIES:
   - HanekeObjc (from `../`)
-  - Nimble (= 3.0.0)
-  - Quick (~> 0.8.0)
+  - Nimble (~> 4.0.0)
+  - Quick (~> 0.9.0)
 
 EXTERNAL SOURCES:
   HanekeObjc:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HanekeObjc: 22798978d7318b30e150a2c71dc6859f89ed8162
-  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  AltHanekeSwift: 2e7770c1fdc29de812f8c0d143947d29e24dcaed
+  HanekeObjc: 7c612acc1e0c002d5eb9137c338695a53695e96e
+  Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
+  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 3fb3e730d5876774693198f1865c07786ed191d0
+
+COCOAPODS: 1.0.1

@@ -1,8 +1,8 @@
 {
   "name": "HanekeObjc",
-  "version": "0.1.0",
+  "version": "0.11.0",
   "summary": "Do you want to use HanekeSwift in your objective-c codes?",
-  "description": "",
+  "description": "A swift wrapper for HanekeSwift to provide an objective-c compatible interface",
   "homepage": "https://github.com/haifengkao/HanekeObjc",
   "license": "MIT",
   "authors": {
@@ -10,20 +10,18 @@
   },
   "source": {
     "git": "https://github.com/haifengkao/HanekeObjc.git",
-    "tag": "0.1.0"
+    "tag": "0.11.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "HanekeObjc": [
-      "Pod/Assets/*.png"
-    ]
-  },
+  "source_files": "Pod/Classes/**/*.{m,h,swift}",
   "dependencies": {
-    "HanekeSwift": [
+    "AltHanekeSwift": [
+
+    ],
+    "Alamofire": [
 
     ]
   }
