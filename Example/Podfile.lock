@@ -1,6 +1,6 @@
 PODS:
-  - AltHanekeSwift (0.10.10)
-  - HanekeObjc (0.12.0):
+  - AltHanekeSwift (0.12.0)
+  - HanekeObjc (0.14.0):
     - AltHanekeSwift
   - Nimble (4.0.1)
   - Quick (0.9.3)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AltHanekeSwift: 2e7770c1fdc29de812f8c0d143947d29e24dcaed
-  HanekeObjc: 6323ae76a68e8802af0ff1c7b12a030e6075549d
+  AltHanekeSwift: 2ddbad6cbe35f3b19343163a06ee2c36e285229b
+  HanekeObjc: 02ea44876e51ba1333db43e26ad41d9c763425a8
   Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
   Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
 
