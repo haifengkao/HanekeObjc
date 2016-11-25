@@ -95,22 +95,22 @@
 		18C4BAA4A11331ABDBD94B88357DE929 /* Pods-HanekeObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HanekeObjc_Example-umbrella.h"; sourceTree = "<group>"; };
 		1DA965DB6572CA333ABB6391C1E8B44E /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
 		1E4623237690E78E5C9CAF7308842E39 /* HanekeObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeObjc-prefix.pch"; sourceTree = "<group>"; };
-		2215DCC3F04CED7A863EFF0755517055 /* HanekeObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HanekeObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2215DCC3F04CED7A863EFF0755517055 /* HanekeObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HanekeObjc.framework; path = HanekeObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD5AA9B0CF94476F5CBE145D4541F7C /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AltHaneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEF00CB1DA7783169DD0FFB3DB2A9C9 /* HanekeObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeObjc.xcconfig; sourceTree = "<group>"; };
-		3ED1E964364ADC191CCE8A017D9051AD /* Pods-HanekeObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HanekeObjc_Tests.modulemap"; sourceTree = "<group>"; };
+		3ED1E964364ADC191CCE8A017D9051AD /* Pods-HanekeObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HanekeObjc_Tests.modulemap"; sourceTree = "<group>"; };
 		3EDC85E0DE6D473BC8678219EB4060C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8C728E167969FD68CE9B9AF351315C /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
 		3FEA67C355EB6C6D0A84B806DE092C1B /* Pods-HanekeObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanekeObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		420EA28D9E8F4315F3BFDF9268456470 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
 		42718621D6FAA1028207BE998C11120A /* AltCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AltCache.swift; sourceTree = "<group>"; };
 		4305A38F645B1C0119CA6F22B540A9B4 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
-		43CF63306A4B3D274005A28A8417B52A /* AltHanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AltHanekeSwift.modulemap; sourceTree = "<group>"; };
-		46BFB4E439943CFDC50EFB28482239A2 /* HanekeObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeObjc.modulemap; sourceTree = "<group>"; };
+		43CF63306A4B3D274005A28A8417B52A /* AltHanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AltHanekeSwift.modulemap; sourceTree = "<group>"; };
+		46BFB4E439943CFDC50EFB28482239A2 /* HanekeObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HanekeObjc.modulemap; sourceTree = "<group>"; };
 		51F498CC50D5324BDDC922D101C99F86 /* Pods-HanekeObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HanekeObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
 		56A35F69507C419736E9EEF0051AF70A /* Pods-HanekeObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HanekeObjc_Tests-dummy.m"; sourceTree = "<group>"; };
 		56B8BF91BA679770DA93F808A557438A /* Pods-HanekeObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HanekeObjc_Example-dummy.m"; sourceTree = "<group>"; };
-		59B92D731C597C432F195A14F25FAECA /* Pods_HanekeObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanekeObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B92D731C597C432F195A14F25FAECA /* Pods_HanekeObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HanekeObjc_Tests.framework; path = "Pods-HanekeObjc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC008DCA76CA7BD92FEE9A4A81EA037 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
 		5DE3C8A80CA0BF1E2F980C139F9BAD1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606EC08E559C24193C23C979CD613792 /* HanekeObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeObjc-umbrella.h"; sourceTree = "<group>"; };
@@ -128,16 +128,16 @@
 		89C32FEEA2C1459ED09DDD7E0FBE21E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9463C372052A2D9ADA955236A7E4A9 /* Pods-HanekeObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HanekeObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8EF55998C65DD95042939C77D5892EFA /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B5A16850AD9E3A4329D2DA8C39853A0 /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AltHaneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5A16850AD9E3A4329D2DA8C39853A0 /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AltHaneke.framework; path = AltHanekeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAEC5E12D63093F2D55628CDD148D01 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
-		9E724E74C0C53977D794CB872ACD5F1E /* Pods-HanekeObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HanekeObjc_Example.modulemap"; sourceTree = "<group>"; };
+		9E724E74C0C53977D794CB872ACD5F1E /* Pods-HanekeObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HanekeObjc_Example.modulemap"; sourceTree = "<group>"; };
 		9F915A03F1A61EBC1B8CA5E5011A918C /* Pods-HanekeObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HanekeObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD5305707E7996C4770BAC8F3107AC09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4876246FA554890025FC6AD2B65C16 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
 		AEABC52BF07A471E17E317D227CFBFF2 /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
 		B1A186FF00A3C01AB3016099C7811D9C /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		B3226FF93B0647EBF1E7F8BF57427A28 /* Pods_HanekeObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanekeObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3226FF93B0647EBF1E7F8BF57427A28 /* Pods_HanekeObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HanekeObjc_Example.framework; path = "Pods-HanekeObjc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B438D2F052BBC1E6DA8E64D60C06CF97 /* Pods-HanekeObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanekeObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7349C737F862720937FD5E90AA43638 /* Pods-HanekeObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HanekeObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BDCFF1970DF82D487CBE094A439DD329 /* Pods-HanekeObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanekeObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +212,7 @@
 			children = (
 				5FFAE8093E9B4ED27767DC9A67531027 /* Classes */,
 			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -258,6 +259,7 @@
 				DDF2C41AA0BEDD1C777E9C7EE494471B /* UIView+Haneke.swift */,
 				126B9D2FF22E06B6EE06DEA8EC4A761D /* Support Files */,
 			);
+			name = AltHanekeSwift;
 			path = AltHanekeSwift;
 			sourceTree = "<group>";
 		};
@@ -282,6 +284,7 @@
 				B1A186FF00A3C01AB3016099C7811D9C /* Log.swift */,
 				E670E992C85119D22ADA753D2C75727F /* StringCache.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -501,11 +504,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					97ED668390BB563CD100FCDF13170EF7 = {
-						LastSwiftMigration = 0810;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
