@@ -36,7 +36,7 @@ open class AltCache<T: DataConvertible> : HanekeCache<T, AltDiskCache, NSCache<A
                 group.leave()
             }
         }
-        DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.default).async {
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
             let timeout = DispatchTime.now() + Double(Int64(60 * NSEC_PER_SEC)) / Double(NSEC_PER_SEC)
             if group.wait(timeout: timeout) == DispatchTimeoutResult.timedOut {
                 Log.error("removeAll timed out waiting for disk caches")
