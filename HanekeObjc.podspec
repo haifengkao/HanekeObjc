@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HanekeObjc"
-  s.version          = "0.19.0"
+  s.version          = "0.20.0"
   s.summary          = "Do you want to use HanekeSwift in your objective-c codes?"
 
 # This description is used to generate tags and improve search results.
