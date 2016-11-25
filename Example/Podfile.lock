@@ -1,5 +1,5 @@
 PODS:
-  - AltHanekeSwift (0.13.0)
+  - AltHanekeSwift (0.14.0)
   - HanekeObjc (0.18.0):
     - AltHanekeSwift
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AltHanekeSwift: c120fa15fd1f77db2774f2a7e325232679876b18
+  AltHanekeSwift: 86d6b9bc77c880c8b54488e61bf9d440d97baf0d
   HanekeObjc: 01dae1d4c32e79a7d6e34c6a7dede7980271cf34
 
 PODFILE CHECKSUM: 5b035505f1ea9defee600b7b77b5b7b7738bfb24
