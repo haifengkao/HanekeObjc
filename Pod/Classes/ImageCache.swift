@@ -44,28 +44,23 @@ import AltHaneke
         return FetchType(fetch: fetch);
     }
 
-    public func fetch(URL URL : NSURL, formatName: String,  failure fail : FetchType.Failer? = nil, success succeed : FetchType.Succeeder? = nil) -> FetchType {
-        let fetch = self.cache.fetch(URL: URL, formatName: formatName, failure: fail, success: succeed)
-        return FetchType(fetch: fetch);
-    }
 }
 
 @objc public class ImageFetch : NSObject {
     public typealias T = UIImage
     public typealias Succeeder = (T) -> ()
-    public typealias Failer = (NSError?) -> ()
+    public typealias Failer = (Error?) -> ()
 
     let fetch : Fetch<T>
     public init(fetch: Fetch<T>){
         self.fetch = fetch
     }
-    public func onSuccess(onSuccess: Succeeder) -> Self {
+    @discardableResult open func onSuccess(_ onSuccess: @escaping Succeeder) -> Self {
         self.fetch.onSuccess(onSuccess)
         return self
     }
-    public func onFailure(onFailure: Failer) -> Self {
+    @discardableResult open func onFailure(_ onFailure: @escaping Failer) -> Self {
         self.fetch.onFailure(onFailure)
         return self
     }
 }
-
