@@ -1,6 +1,6 @@
 PODS:
   - AltHanekeSwift (0.18.0)
-  - HanekeObjc (0.22.0):
+  - HanekeObjc (0.23.0):
     - AltHanekeSwift (> 0.17.0)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AltHanekeSwift: c95f16b4365460a7777696e086e0b16fc8d9817e
-  HanekeObjc: 793b4dc69cc411287923f18b24482a5a907e40c3
+  HanekeObjc: 71d261a79be7e5574744085b1a633ffd23098f2f
 
 PODFILE CHECKSUM: 71e4812c82d109ddf3b915bf4bd9df4bc9140848
 
