@@ -36,6 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.swift_version = '4.2'
   s.dependency 'AltHanekeSwift', '> 0.17.0' # suuport swift 4.2
 end

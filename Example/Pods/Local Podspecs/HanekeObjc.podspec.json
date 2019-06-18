@@ -17,7 +17,6 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*.{m,h,swift}",
-  "swift_version": "4.2",
   "dependencies": {
     "AltHanekeSwift": [
       "> 0.17.0"
