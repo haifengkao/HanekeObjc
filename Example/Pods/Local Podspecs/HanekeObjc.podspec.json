@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/**/*.{m,h,swift}",
   "dependencies": {
     "AltHanekeSwift": [
-      "> 0.17.0"
+      ">= 0.21.0"
     ]
   }
 }

@@ -72,13 +72,13 @@
 
 /* Begin PBXFileReference section */
 		00A9A6F09EB2379912F9DFE460810F17 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
-		060D751B20F893296A824D1226105E0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		060D751B20F893296A824D1226105E0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0634CF8E41D1A7D265AAFA774E78671F /* Pods-HanekeObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HanekeObjc_Example-Info.plist"; sourceTree = "<group>"; };
 		08B99EC8FFFB8291B058A1F2094ADABC /* Pods-HanekeObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HanekeObjc_Example-dummy.m"; sourceTree = "<group>"; };
-		0A62D82B7AEFB43F800D2F7DDC8BB2B5 /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AltHaneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A62D82B7AEFB43F800D2F7DDC8BB2B5 /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AltHaneke.framework; path = AltHanekeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA6CD7CEF2E0E618E37050E4E0BB3C9 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		0CBD9D58750A19E893A89252D4A06137 /* Pods_HanekeObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanekeObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D81772CB5E8EB4432DA36FD68D76163 /* HanekeObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HanekeObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CBD9D58750A19E893A89252D4A06137 /* Pods_HanekeObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HanekeObjc_Example.framework; path = "Pods-HanekeObjc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D81772CB5E8EB4432DA36FD68D76163 /* HanekeObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HanekeObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1015666D2C6B2AF19A5C5CF31CA90DA2 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
 		11935A493A56A1A1092DF88412039F08 /* AltCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AltCache.swift; path = Pod/Classes/AltCache.swift; sourceTree = "<group>"; };
 		13ADD3013B29E33D32660D185E4C2B21 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
@@ -106,12 +106,12 @@
 		647AD70B50191AF97D3B9B7BAE72D43D /* Pods-HanekeObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HanekeObjc_Example-umbrella.h"; sourceTree = "<group>"; };
 		6A3F5627519E4028BBCBCB8D6821980F /* Pods-HanekeObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanekeObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7B63BE98492F4B2B858BD7301277E31F /* Pods-HanekeObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanekeObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
-		84B950268F1FC257F6E4D1B38890FD04 /* HanekeObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HanekeObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B950268F1FC257F6E4D1B38890FD04 /* HanekeObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HanekeObjc.framework; path = HanekeObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9EEB8657AF1150BA1DE8BB7BDE7144 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
 		964CCEEA90B761E092AAFBCFFC0FF0EB /* AltHanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AltHanekeSwift-prefix.pch"; sourceTree = "<group>"; };
 		9C0E9193AECA3848626CF1EB3DB94E47 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
 		9D4BAF8996F0E212B38EBDB00BA9E7EB /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A20050BCE9096A8FC035A42CA2ECF5F2 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
 		B8778A56FD4F48B4EE0D5826DE8BF589 /* HanekeObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeObjc-umbrella.h"; sourceTree = "<group>"; };
 		C2408912BA2F92A546E9DBA343C486DC /* AltDiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AltDiskCache.swift; path = Pod/Classes/AltDiskCache.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		E9DC741F30754199A396193AD8751745 /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = Pod/Classes/DataCache.swift; sourceTree = "<group>"; };
 		EF2BA5019D0D0C13FE0EC353CABACE7A /* AltHaneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AltHaneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB096F62F27E1F88C0B3E5AB15A5DA /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
-		F70FCDF161D34A69418F32477BF43C29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F70FCDF161D34A69418F32477BF43C29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F757B5ABD1FC276C21F3451974C1DD2F /* AltHanekeSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AltHanekeSwift-Info.plist"; sourceTree = "<group>"; };
 		FC2764415A22D8F89FE0211643B389ED /* HanekeObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeObjc-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,6 +319,7 @@
 				EFBB096F62F27E1F88C0B3E5AB15A5DA /* UIView+Haneke.swift */,
 				8CC5D057D516934E03AD8CDDEA517D79 /* Support Files */,
 			);
+			name = AltHanekeSwift;
 			path = AltHanekeSwift;
 			sourceTree = "<group>";
 		};
@@ -416,14 +417,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -542,7 +542,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -602,38 +601,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		1CAAAC29D00B4E5AF16FA350C6243082 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52EF772D8E74524D7C093D4E59B47928 /* HanekeObjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HanekeObjc/HanekeObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanekeObjc/HanekeObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanekeObjc/HanekeObjc.modulemap";
-				PRODUCT_MODULE_NAME = HanekeObjc;
-				PRODUCT_NAME = HanekeObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		28E92A091EB38D3408DCA52558989F95 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -700,6 +667,37 @@
 			};
 			name = Debug;
 		};
+		8FDFC43E827764431460975F4B67D1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EF772D8E74524D7C093D4E59B47928 /* HanekeObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeObjc/HanekeObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeObjc/HanekeObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanekeObjc/HanekeObjc.modulemap";
+				PRODUCT_MODULE_NAME = HanekeObjc;
+				PRODUCT_NAME = HanekeObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C22EC1EF8CE9CEC869EFA6C583F409BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4CB2A5AD2F6A9246E1555B173760B20A /* AltHanekeSwift.xcconfig */;
@@ -731,37 +729,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D5746FBB9E70FD85BECC07CED31302C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52EF772D8E74524D7C093D4E59B47928 /* HanekeObjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HanekeObjc/HanekeObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanekeObjc/HanekeObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanekeObjc/HanekeObjc.modulemap";
-				PRODUCT_MODULE_NAME = HanekeObjc;
-				PRODUCT_NAME = HanekeObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E07D7E216EE52478DE6D78942289E9A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -796,11 +763,42 @@
 			};
 			name = Debug;
 		};
+		E79EF616B3FFB04B106061E4DE31CE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EF772D8E74524D7C093D4E59B47928 /* HanekeObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeObjc/HanekeObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeObjc/HanekeObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanekeObjc/HanekeObjc.modulemap";
+				PRODUCT_MODULE_NAME = HanekeObjc;
+				PRODUCT_NAME = HanekeObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FF54A72E467D2FE6A514F52E26280B06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -850,7 +848,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -880,8 +879,8 @@
 		AC0546E355DB8BD87C879C8B97C1BDB2 /* Build configuration list for PBXNativeTarget "HanekeObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5746FBB9E70FD85BECC07CED31302C8 /* Debug */,
-				1CAAAC29D00B4E5AF16FA350C6243082 /* Release */,
+				8FDFC43E827764431460975F4B67D1B4 /* Debug */,
+				E79EF616B3FFB04B106061E4DE31CE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
